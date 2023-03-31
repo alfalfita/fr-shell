@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frshell-dev-155907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::031842254778:role/amplify-frshell-dev-155907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::031842254778:role/amplify-frshell-dev-155907-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frshell-dev-155907-deployment",
+      "UnauthRoleName": "amplify-frshell-dev-155907-unauthRole",
+      "StackName": "amplify-frshell-dev-155907",
+      "StackId": "arn:aws:cloudformation:us-east-1:031842254778:stack/amplify-frshell-dev-155907/b7c61480-cf3d-11ed-bc07-1239005f8d27",
+      "AmplifyAppId": "d1kz82w8ul19jc"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

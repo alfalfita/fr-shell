@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frshell-dev-155907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::031842254778:role/amplify-frshell-dev-155907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::031842254778:role/amplify-frshell-dev-155907-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frshell-dev-155907-deployment",
+      "UnauthRoleName": "amplify-frshell-dev-155907-unauthRole",
+      "StackName": "amplify-frshell-dev-155907",
+      "StackId": "arn:aws:cloudformation:us-east-1:031842254778:stack/amplify-frshell-dev-155907/b7c61480-cf3d-11ed-bc07-1239005f8d27",
+      "AmplifyAppId": "d1kz82w8ul19jc"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-frshell-dev-155907-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2023-03-30T21:06:48.655Z",
+      "output": {
+        "CloudFrontSecureURL": "https://d9qz0hjql6kvy.cloudfront.net",
+        "S3BucketSecureURL": "https://frhell-20230330160026-hostingbucket-dev.s3.amazonaws.com",
+        "CloudFrontOriginAccessIdentity": "E1CT6WV04QNLCL",
+        "WebsiteURL": "http://frhell-20230330160026-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+        "CloudFrontDistributionID": "E3LJBEVGHTPOTC",
+        "Region": "us-east-1",
+        "HostingBucketName": "frhell-20230330160026-hostingbucket-dev",
+        "CloudFrontDomainName": "d9qz0hjql6kvy.cloudfront.net"
+      },
+      "lastPushDirHash": "7NM4E0a5HqEErkpUuuPAhl41/l0="
+    }
+  }
+}
